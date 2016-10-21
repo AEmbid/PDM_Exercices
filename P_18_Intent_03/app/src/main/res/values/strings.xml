@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">P_18_Intent_03</string>
+    <string name="texto1">Introduzca nombre</string>
+    <string name="texto2">Enviar</string>
+    <string name="texto3">Acepta condiciones?</string>
+    <string name="texto4" />
+</resources>
