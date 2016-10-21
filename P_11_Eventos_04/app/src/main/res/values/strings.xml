@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">P_11_Eventos_04</string>
+    <string name="texto1">Ejemplo de uso de \nTextView, EditText y CheckBox\ncon control de evento con método implementado</string>
+    <string name="texto2">Teclee nº</string>
+    <string name="texto3">RESTAR</string>
+    <string name="texto4">Resultado</string>
+</resources>

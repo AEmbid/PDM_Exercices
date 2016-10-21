@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">P_12_Eventos_05</string>
+    <string name="texto1">OFF</string>
+    <string name="texto">Ejemplo de uso de ToggleButton</string>
+</resources>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">P_10_Eventos_03</string>
+    <string name="texto1">Ejemplo de uso de \nTextView, EditText y RadioGroup\ncon control de evento con método implementado</string>
+    <string name="texto2">Teclee nº</string>
+    <string name="texto3">MULTIPLICAR</string>
+    <string name="texto4">DIVIDIR</string>
+    <string name="texto5">Resultado</string>
+</resources>

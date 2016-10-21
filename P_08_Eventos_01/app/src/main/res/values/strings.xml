@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">P_08_Eventos_01</string>
+    <string name="texto1">Ejemplo de uso de \nTextView, EditText y Button\ncon control de evento con método propio</string>
+    <string name="texto2">Teclee nº</string>
+    <string name="texto3">SUMAR</string>
+    <string name="texto4">Resultado</string>
+</resources>
