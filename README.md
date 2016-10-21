@@ -1,2 +1,2 @@
-# PDM_Exercices
+# PDM_Exercises
 Class projects in Android (bsoler dam2d)
