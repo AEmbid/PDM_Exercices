@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name" translatable="false">Creciente</string>
+    <string name="action_settings">Settings</string>
+    <string name="acerca_de">ABOUT</string>
+    <string name="configuraci_n">SETTINGS</string>
+    <string name="creciente" translatable="false">Creciente</string>
+    <string name="jugar">PLAY</string>
+    <string name="salir">EXIT</string>
+</resources>
