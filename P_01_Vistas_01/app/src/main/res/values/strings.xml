@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">P_01_Vistas_01</string>
+    <string name="guardar">Save</string>
+    <string name="togglebutton" translatable="false">ToggleButton</string>
+</resources>
