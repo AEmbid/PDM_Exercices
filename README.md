@@ -8,8 +8,8 @@ P_04_Vistas_04 		//FINISHED
 P_05_Creciente_01 	//WORKING
 P_06_Material_01 	//TODO
 P_07				//TODO
-P_08_Eventos_01		//TODO
-P_09_Eventos_02		//TODO
+P_08_Eventos_01		//FINISHED
+P_09_Eventos_02		//FINISHED
 P_10_Eventos_03		//TODO
 P_11_Eventos_04		//TODO
 P_12_Eventos_05		//TODO
