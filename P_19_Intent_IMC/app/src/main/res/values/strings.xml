@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">P19_Intent_IMC</string>
+    <string name="title_activity_segunda">SegundaActivity</string>
+    <string name="help">IMC es una aplicación de ejemplo creada para calcular nuestro índice de masa corporal. Hay que introducir el peso en kg y dividirlo por el cuadrado de la altura en metros</string>
+</resources>
