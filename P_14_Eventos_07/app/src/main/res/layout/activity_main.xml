@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/activity_main"
     android:layout_width="match_parent"
@@ -10,8 +11,56 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.pdm.p_14_eventos_07.MainActivity">
 
-    <TextView
+    <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        app:srcCompat="@drawable/penguins"
+        android:id="@+id/pengu"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="MAS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:layout_marginStart="54dp"
+        android:id="@+id/btmore"
+        android:layout_alignBottom="@+id/pengu"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="MENOS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btless"
+        android:layout_marginLeft="51dp"
+        android:layout_marginStart="56dp"
+        android:layout_alignBottom="@+id/pengu"
+        android:layout_toEndOf="@+id/btmore" />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="15dp"
+        android:id="@+id/rg">
+
+        <RadioButton
+            android:text="Fondo original"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/rdorig"
+            android:checked="true" />
+
+        <RadioButton
+            android:text="Fondo de color"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rdcolor"
+            android:layout_weight="1" />
+    </RadioGroup>
 </RelativeLayout>
