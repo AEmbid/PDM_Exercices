@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">P_21_Seleccion_01_Spinner</string>
+    <string name="texto1">Ejemplo vista Spinner</string>
+    <string name="texto2">Resultado</string>
+</resources>
