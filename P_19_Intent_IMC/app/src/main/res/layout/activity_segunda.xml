@@ -16,5 +16,6 @@
         android:layout_centerVertical="true"
         android:layout_centerHorizontal="true"
         android:id="@+id/textView5"
-        android:text="@string/help" />
+        android:text="@string/help"
+        android:textAlignment="center" />
 </RelativeLayout>

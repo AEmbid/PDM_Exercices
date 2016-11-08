@@ -19,8 +19,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         setContentView(R.layout.activity_main);
 
         Button btncalc = (Button) findViewById(R.id.btndo);
-        btncalc.setOnClickListener(this);
+        Button btnhelp = (Button) findViewById(R.id.btnhelp);
 
+        btncalc.setOnClickListener(this);
+        btnhelp.setOnClickListener(this);
     }
 
 
@@ -31,12 +33,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         switch (v.getId()) {
             case R.id.btndo:
                 if (TextUtils.isEmpty(al.getText()) ||
-                        TextUtils.isEmpty(pe.getText()) ||
-                        Double.parseDouble(al.getText().toString()) == 0 ||
+                        TextUtils.isEmpty(pe.getText())) {
+                    Toast.makeText(this, "Introduce valores", Toast.LENGTH_SHORT).show();
+                }
+                else if (Double.parseDouble(al.getText().toString()) == 0 ||
                         Double.parseDouble(pe.getText().toString()) == 0 ) {
-
-                    Toast.makeText(this, "Algo no es correcto", Toast.LENGTH_SHORT).show();
-
+                    Toast.makeText(this, "El valor '0' no es aceptado", Toast.LENGTH_SHORT).show();
                 } else {
                     Toast.makeText(this, getData(
                             Integer.parseInt(al.getText().toString()),
