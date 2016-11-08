@@ -16,14 +16,14 @@
 - [x] P_13_Eventos_06	
 - [x] P_14_Eventos_07
 - [x] P_15_Eventos_08		
--P_16_Intent_01				//EXAMPLE
--P_17_Intent_02				//EXAMPLE
--P_18_Intent_03				//EXAMPLE
+- P_16_Intent_01				//EXAMPLE
+- P_17_Intent_02				//EXAMPLE
+- P_18_Intent_03				//EXAMPLE
 - [x] P_19_Intent_04				
 - [x] P_20_Creciente_02		
--P_21_Seleccion_01_Spinner		//EXAMPLE
--P_22_Seleccion_02_ListView 	//EXAMPLE
--P_23_Seleccion_03_GridView		//EXAMPLE
--P_24_Seleccion_04_SoporteIdiomas 	//EXAMPLE
--P_25_Seleccion_05_AdapterPorLayout 	//EXAMPLE
--P_26_Intent_Selection		//BEING CODED
+- P_21_Seleccion_01_Spinner		//EXAMPLE
+- P_22_Seleccion_02_ListView 	//EXAMPLE
+- P_23_Seleccion_03_GridView		//EXAMPLE
+- P_24_Seleccion_04_SoporteIdiomas 	//EXAMPLE
+- P_25_Seleccion_05_AdapterPorLayout 	//EXAMPLE
+- P_26_Intent_Selection		//BEING CODED
