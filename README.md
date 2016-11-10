@@ -28,3 +28,4 @@
 - P_25_Seleccion_05_AdapterPorLayout 	//EXAMPLE
 - [x] P_26_Intent_Selection		
 - [x] P_27_Intent_Selection_02
+- [x] P_28_Selection_06_ListAdapter
