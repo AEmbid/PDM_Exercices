@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">P_27_Intent_Seleccion_02</string>
+    <string name="select">Selecciona curso</string>
+    <string name="asiselect">Selecciona asignatura</string>
+
+    <string-array name="cursos">
+        <item>1º</item>
+        <item>2º</item>
+    </string-array>
+
+    <string-array name="asignaturas1">
+        <item>XML</item>
+        <item>BD</item>
+    </string-array>
+
+    <string-array name="asignaturas2">
+        <item>PDM</item>
+        <item>FCT</item>
+    </string-array>
+</resources>
