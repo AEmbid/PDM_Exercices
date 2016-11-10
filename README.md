@@ -30,3 +30,4 @@
 - [x] P_27_Intent_Selection_02
 - [x] P_28_Selection_06_ListAdapter
 - [x] P_29_ListView_Personalizado_01 
+- [ ] P_30_ListView_Personalizado_02
