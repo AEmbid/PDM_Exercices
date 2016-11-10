@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">"P_29_ListView_Personalizado_01 "</string>
+
+    <string-array name="codenames">
+        <item>Jelly Bean (4.1 - 4.2)</item>
+        <item>Kitkat (4.4)</item>
+        <item>Lollipop (5.0 - 5.1)</item>
+        <item>Marshmallow (6.0)</item>
+        <item>Nougat (7.0)</item>
+    </string-array>
+
+    <string-array name="apilevel">
+        <item>16-18</item>
+        <item>19-20</item>
+        <item>21-22</item>
+        <item>23</item>
+        <item>24-25</item>
+    </string-array>
+</resources>
