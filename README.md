@@ -26,4 +26,4 @@
 - P_23_Seleccion_03_GridView		//EXAMPLE
 - P_24_Seleccion_04_SoporteIdiomas 	//EXAMPLE
 - P_25_Seleccion_05_AdapterPorLayout 	//EXAMPLE
-- [ ] P_26_Intent_Selection		
+- [x] P_26_Intent_Selection		

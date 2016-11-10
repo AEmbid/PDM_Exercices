@@ -10,16 +10,23 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.adrian.p_26_intent_selection.MainActivity">
 
-    <TextView
+    <LinearLayout
+        android:orientation="vertical"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Escoja curso"
-        android:textAlignment="center"
-        android:id="@+id/tv" />
+        android:layout_height="match_parent">
 
-    <ListView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_centerHorizontal="true"
-        android:id="@+id/lv" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/select"
+            android:textAlignment="center"
+            android:id="@+id/tv" />
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/lv" />
+    </LinearLayout>
+
 </RelativeLayout>

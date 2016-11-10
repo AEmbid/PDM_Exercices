@@ -3,10 +3,14 @@
     <string name="title_activity_segunda">SegundaActivity</string>
     <string name="title_activity_tercera">TerceraActivity</string>
     <string name="cursos">[1, 2]</string>
+    <string name="select">Escoja curso</string>
 
-    <string-array name="opciones">
+    <string-array name="opciones1">
         <item>BD</item>
         <item>XML</item>
+    </string-array>
+
+    <string-array name="opciones2">
         <item>Android</item>
     </string-array>
 

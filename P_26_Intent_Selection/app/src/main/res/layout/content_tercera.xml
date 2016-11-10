@@ -13,4 +13,10 @@
     tools:context="com.example.adrian.p_26_intent_selection.TerceraActivity"
     tools:showIn="@layout/activity_tercera">
 
+    <TextView
+        android:text="TextView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/res"
+        android:textAlignment="center" />
 </RelativeLayout>

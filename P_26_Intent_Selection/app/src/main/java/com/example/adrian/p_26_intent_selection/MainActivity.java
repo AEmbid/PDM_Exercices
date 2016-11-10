@@ -29,9 +29,8 @@ public class MainActivity extends AppCompatActivity {
 
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int posicion, long id) {
-                //textview.setText(lv.getItemAtPosition(posicion) + " es " + opcion[posicion]);
-                
                 Intent intent = new Intent(view.getContext(), SegundaActivity.class);
+                intent.putExtra("curso", posicion+1);
                 startActivity(intent);
             }
         });
