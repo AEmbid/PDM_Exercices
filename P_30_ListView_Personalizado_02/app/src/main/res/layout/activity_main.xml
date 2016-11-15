@@ -8,7 +8,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.pdm.p_29_listview_personalizado_01.MainActivity">
+    tools:context="com.pdm.p_30_listview_personalizado_02.MainActivity">
 
     <TextView
         android:layout_width="match_parent"
@@ -21,7 +21,9 @@
     <ListView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:id="@android:id/list"
+        android:id="@+id/listView"
+        android:labelFor="@android:id/list"
         android:layout_alignParentBottom="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true" >
+    </ListView>
 </RelativeLayout>

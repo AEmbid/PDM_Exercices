@@ -16,9 +16,9 @@
 - [x] P_13_Eventos_06	
 - [x] P_14_Eventos_07
 - [x] P_15_Eventos_08		
-- P_16_Intent_01				//EXAMPLE
-- P_17_Intent_02				//EXAMPLE
-- P_18_Intent_03				//EXAMPLE
+- P_16_Intent_01	//EXAMPLE
+- P_17_Intent_02	//EXAMPLE
+- P_18_Intent_03	//EXAMPLE
 - [x] P_19_Intent_04				
 - [x] P_20_Creciente_02		
 - P_21_Seleccion_01_Spinner		//EXAMPLE
@@ -31,3 +31,6 @@
 - [x] P_28_Selection_06_ListAdapter
 - [x] P_29_ListView_Personalizado_01 
 - [ ] P_30_ListView_Personalizado_02
+- [x] P_31_Ciclo_vida
+- [x] P_33_Intents_implicitos
+- [ ] P_33_Intents_implicitos_02

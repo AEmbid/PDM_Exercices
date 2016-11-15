@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="acerca_de">ACERCA DE</string>
+    <string name="action_settings">Opciones</string>
+    <string name="configuraci_n">CONFIGURACIÓN</string>
+    <string name="jugar">JUGAR</string>
+    <string name="salir">SALIR</string>
+</resources>
