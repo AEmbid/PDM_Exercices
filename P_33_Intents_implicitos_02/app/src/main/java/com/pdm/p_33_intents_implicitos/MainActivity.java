@@ -14,14 +14,14 @@ import static android.provider.LiveFolders.INTENT;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
-    String phoneNumber;
+    TextView phon;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        TextView phon = (TextView) findViewById(R.id.phonenum);
+        phon = (TextView) findViewById(R.id.phonenum);
 
         Button call = (Button) findViewById(R.id.button);
         call.setOnClickListener(this);
@@ -31,6 +31,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     @Override
     public void onClick(View view) {
-        startActivity(new Intent(Intent.ACTION_DIAL, Uri.fromParts("tel", phoneNumber, null)));
+        startActivity(new Intent(Intent.ACTION_DIAL, Uri.fromParts("tel", phon.getText().toString(), null)));
     }
 }

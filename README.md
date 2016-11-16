@@ -33,4 +33,6 @@
 - [x] P_30_ListView_Personalizado_02
 - [x] P_31_Ciclo_vida
 - [x] P_33_Intents_implicitos
-- [ ] P_33_Intents_implicitos_02
+- [x] P_33_Intents_implicitos_02
+- P_35_Permisos_normales	//EXAMPLE
+- P_36_Permisos_peligrosos	//EXAMPLE
