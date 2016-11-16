@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="acerca_de">À PROPOS</string>
+    <string name="action_settings">Sacré Bleu</string>
+    <string name="configuraci_n">CONFIGURATION</string>
+    <string name="jugar">JOUER</string>
+    <string name="salir">SORTIR</string>
+</resources>
