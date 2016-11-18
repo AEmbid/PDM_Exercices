@@ -9,4 +9,7 @@
     <string name="title_activity_about">About</string>
     <string name="about">Este programa ha sido desarrollado como ejemplo para demostrar como se lanzan nuevas actividades</string>
     <string name="bye">Hasta la próxima</string>
+    <string name="preferences_menu">preferences_menu</string>
+    <string name="info_menu">info_menu</string>
+    <string name="working_on">En preparación</string>
 </resources>

@@ -4,22 +4,22 @@
     tools:context="com.pdm.p_05_creciente_01.MainActivity">
 
     <item
-        android:id="menu_preferences"
+        android:id="@+id/menupref"
         android:orderInCategory="100"
         android:icon="@android:drawable/ic_menu_preferences"
         app:showAsAction="always"
-        android:enabled="true"
+        android:checkable="false"
+        android:title="@string/preferences_menu"
         android:visible="true"
-        android:checkable="true"
-        android:title="preferences_menu" />
+        android:enabled="true" />
 
     <item
-        android:id="menu_info"
+        android:id="@+id/menuinfo"
         android:orderInCategory="50"
         android:icon="@android:drawable/ic_menu_info_details"
         app:showAsAction="always"
-        android:enabled="true"
-        android:checkable="true"
+        android:checkable="false"
+        android:title="@string/info_menu"
         android:visible="true"
-        android:title="info_menu" />
+        android:enabled="true" />
 </menu>

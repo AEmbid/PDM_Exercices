@@ -1,6 +1,7 @@
-package com.pdm.p_05_creciente_01;
+package com.pdm.p_55_Fragmentos_08;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -9,13 +10,10 @@ import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.widget.Button;
-import android.widget.Switch;
-import android.widget.Toast;
 
-public class MainActivity extends AppCompatActivity implements View.OnClickListener {
-
-    boolean isexit;
+public class MainActivity extends AppCompatActivity implements ItemFragment.OnListFragmentInteractionListener, ItemFragment.OnLongClickInteraction {
+    private static final String ID_SELECCIONADO = "seleccionado";
+    private boolean dosFragmentos;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -32,17 +30,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                         .setAction("Action", null).show();
             }
         });
-
-        Button btnabout = (Button) findViewById(R.id.button3);
-        Button btnexit = (Button) findViewById(R.id.button4);
-        btnabout.setOnClickListener(this);
-        btnexit.setOnClickListener(this);
-
-        isexit = false;
+        if (findViewById(R.id.content_detalle)!=null)
+            dosFragmentos=true;
 
     }
-
-
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
@@ -59,38 +50,36 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         int id = item.getItemId();
 
         //noinspection SimplifiableIfStatement
-        if (id == R.id.menuinfo) {
-            Intent about = new Intent(this, About.class);
-            startActivity(about);
-        } else if (id == R.id.menupref) {
-            Toast.makeText(this, R.string.working_on, Toast.LENGTH_SHORT).show();
+        if (id == R.id.action_settings) {
+            return true;
         }
-
-
 
         return super.onOptionsItemSelected(item);
     }
 
     @Override
-    public void onDestroy() {
-        if (isexit) {
-            Toast.makeText(this, getResources().getText(R.string.bye), Toast.LENGTH_SHORT).show();
+    public void onListFragmentInteraction(int id) {
+        Bundle bundle=new Bundle();
+        bundle.putInt(ID_SELECCIONADO, id);
+        if (dosFragmentos){
+            DetalleFragment detalleFragment=new DetalleFragment();
+            detalleFragment.setArguments(bundle);
+            getSupportFragmentManager().beginTransaction().replace(R.id.content_detalle,detalleFragment).commit();
         }
-        super.onDestroy();
+        else{
+            Intent intent=new Intent(this,DetalleActivity.class);
+            intent.putExtras(bundle);
+            startActivity(intent);
+        }
     }
 
     @Override
-    public void onClick(View v) {
-        switch (v.getId()) {
-            case R.id.button3:
-                Intent about = new Intent(this, About.class);
-                startActivity(about);
-                break;
-            case R.id.button4:
-                isexit = true;
-                finish();
-            default:
-                break;
-        }
+    public void onLongClickInteraction(int id) {
+        String url = getResources().getStringArray(R.array.url)[id];
+
+        Intent web = new Intent(Intent.ACTION_VIEW, Uri.parse(url));
+        startActivity(web);
+
+
     }
 }

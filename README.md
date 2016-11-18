@@ -36,5 +36,5 @@
 - [x] P_33_Intents_implicitos_02
 - [x] P_35_Permisos_normales
 - [x] P_36_Permisos_peligrosos
-- [ ] P_37_Creciente_AppBar
-
+- [x] P_37_Creciente_AppBar
+- [x] P_58_Fragmentos_08

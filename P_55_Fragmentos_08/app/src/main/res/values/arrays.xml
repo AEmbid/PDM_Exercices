@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="fotos">
+        <item>@drawable/zaragoza</item>
+        <item>@drawable/huesca</item>
+        <item>@drawable/teruel</item>
+    </array>
+    <array name="url">
+        <item>"http://www.zaragoza.es"</item>
+        <item>"http://www.huesca.es"</item>
+        <item>"http://www.teruel.es"</item>
+    </array>
+
+</resources>
