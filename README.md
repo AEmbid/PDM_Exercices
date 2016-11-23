@@ -37,4 +37,7 @@
 - [x] P_35_Permisos_normales
 - [x] P_36_Permisos_peligrosos
 - [x] P_37_Creciente_AppBar
+- [x] P_43_Toolbar_Filtro
+- [ ] P_44_Toolbar_Pestanas
 - [x] P_58_Fragmentos_08
+
