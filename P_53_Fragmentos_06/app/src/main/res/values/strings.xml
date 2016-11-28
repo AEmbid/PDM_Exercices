@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">P_53_Fragmentos_06</string>
+    <string name="action_settings">Settings</string>
+    <string-array name="ciudades">
+        <item>Zaragoza</item>
+        <item>Huesca</item>
+        <item>Teruel</item>
+    </string-array>
+    <array name="descripciones">
+        <item>Zaragoza, ciudad bañada por el Ebro,\nbla, bla, bla\nbla, bla, bla</item>
+        <item>Huesca, cercana a los Pirineos,\nbla, bla, bla\nbla, bla, bla</item>
+        <item>Teruel, capital del bajo Aragón,\nbla, bla, bla\nbla, bla, bla</item>
+    </array>
+    <string name="title_activity_detalle">DetalleActivity</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

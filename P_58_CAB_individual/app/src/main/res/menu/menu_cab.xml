@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="@string/opcion1"
+        android:id="@+id/item1"
+        android:icon="@android:drawable/ic_menu_info_details"
+        android:visible="true" />
+    <item android:title="@string/opcion2"
+        android:id="@+id/item2"
+        android:icon="@android:drawable/ic_menu_search" />
+</menu>

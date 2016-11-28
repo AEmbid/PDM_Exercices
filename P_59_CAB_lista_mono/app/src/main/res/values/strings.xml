@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">P_59_CAB_lista_mono</string>
+    <string name="action_settings">Settings</string>
+    <string-array name="ciudades">
+        <item>Zaragoza</item>
+        <item>Huesca</item>
+        <item>Teruel</item>
+    </string-array>
+    <array name="descripciones">
+        <item>Zaragoza, ciudad bañada por el Ebro,\nbla, bla, bla\nbla, bla, bla</item>
+        <item>Huesca, cercana a los Pirineos,\nbla, bla, bla\nbla, bla, bla</item>
+        <item>Teruel, capital del bajo Aragón,\nbla, bla, bla\nbla, bla, bla</item>
+    </array>
+    <string-array name="web">
+        <item>http://www.zaragoza.es/sedeelectronica/</item>
+        <item>http://www.huesca.es/</item>
+        <item>http://www.teruel.es/</item>
+    </string-array>
+    <string name="title_activity_detalle">DetalleActivity</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="opcion1">Opción 1</string>
+    <string name="opcion2">Opción 2</string>
+    <string name="title_activity_navegacion">NavegacionActivity</string>
+</resources>
