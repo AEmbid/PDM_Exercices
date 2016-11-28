@@ -1,6 +1,0 @@
-<resources>
-    <string name="app_name">P_35_Permisos_normales</string>
-    <string name="texto1">Mostrar web del Instituto</string>
-    <string name="texto2">Google Maps del Instituto</string>
-    <string name="texto3">Enviar email al Instituto</string>
-</resources>

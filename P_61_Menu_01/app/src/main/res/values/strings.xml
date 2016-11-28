@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">P_61_Menu_01</string>
+    <string name="action_settings">Settings</string>
+    <string name="zara">Zaragoza</string>
+    <string name="hues">Huesca</string>
+    <string name="teru">Teruel</string>
+    <string name="zara1">Zaragozano</string>
+    <string name="hues1">Oscense</string>
+    <string name="teru1">Turolense</string>
+</resources>

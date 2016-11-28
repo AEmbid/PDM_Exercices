@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">P_52_Recycler_3</string>
+    <string name="action_settings">Settings</string>
+    <string name="foto">Foto</string>
+    <string name="texto">Ciudad</string>
+    <string-array name="nombresCiudad">
+        <item>Zaragoza</item>
+        <item>Huesca</item>
+        <item>Teruel</item>
+    </string-array>
+    <string-array name="descriCiudad">
+        <item>A orillas del Ebro</item>
+        <item>Cercana a los Pirineos</item>
+        <item>Capital del Bajo Aragón</item>
+    </string-array>
+    <string-array name="web">
+        <item>http://www.zaragoza.es/sedeelectronica/</item>
+        <item>http://www.huesca.es/</item>
+        <item>http://www.teruel.es/</item>
+    </string-array>
+</resources>

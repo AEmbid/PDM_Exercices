@@ -1,0 +1,24 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.pdm.p_43_toolbar_filtro.CompletoFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <fragment
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:name="com.pdm.p_43_toolbar_filtro.ImagenFragment"
+        android:id="@+id/fragment"
+        tools:layout="@layout/fragment_imagen"
+        android:layout_gravity="top|center" />
+
+    <fragment
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:name="com.pdm.p_43_toolbar_filtro.TextoFragment"
+        android:id="@+id/fragment2"
+        tools:layout="@layout/fragment_texto"
+        android:layout_gravity="center" />
+</FrameLayout>
