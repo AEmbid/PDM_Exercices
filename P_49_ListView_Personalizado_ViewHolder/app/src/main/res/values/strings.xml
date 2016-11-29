@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">P_30_ListView_Personalizado_02</string>
+    <string name="texto1">ListView personalizado</string>
+    <string name="texto2">Resultado</string>
+    <array name="version">
+        <item>Nougat (7.0)</item>
+        <item>Marshmallow (6.0)</item>
+        <item>Lollipop (5.0-5.1)</item>
+        <item>KitKat (4.4)</item>
+        <item>Jelly Bean (4.1-4.3)</item>
+    </array>
+    <array name="num_api">
+        <item>API 24</item>
+        <item>API 23</item>
+        <item>API 21-22</item>
+        <item>API 19-20</item>
+        <item>API 16-18</item>
+    </array>
+</resources>

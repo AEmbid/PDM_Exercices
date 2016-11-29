@@ -1,0 +1,15 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.pdm.p_40_fragmentos_03.DinamicoFragment"
+    android:id="@+id/dinamicoLayout">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <Switch
+        android:text="Switch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/switch1" />
+</FrameLayout>

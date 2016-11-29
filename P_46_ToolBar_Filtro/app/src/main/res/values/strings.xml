@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ToolBar_Filtro</string>
+    <string name="action_settings">Settings</string>
+    <string-array name="opciones">
+        <item>Imagen</item>
+        <item>Texto</item>
+        <item>Imagen y texto</item>
+    </string-array>
+</resources>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">P_42_Fragmentos_05</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_detalle">DetalleActivity</string>
+    <string name="z">Zaragoza</string>
+    <string name="h">Huesca</string>
+    <string name="t">Teruel</string>
+</resources>

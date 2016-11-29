@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="logos">
+        <item>@drawable/nougat</item>
+        <item>@drawable/marshmallow</item>
+        <item>@drawable/lollipop</item>
+        <item>@drawable/kitkat</item>
+        <item>@drawable/jelly</item>
+    </array>
+</resources>

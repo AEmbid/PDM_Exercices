@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">P_45_Toolbar_Pestanas_2</string>
+    <string name="action_settings">Settings</string>
+    <string-array name="opciones">
+        <item>Zaragoza</item>
+        <item>Huesca</item>
+        <item>Teruel</item>
+    </string-array>
+    <string name="texto">Pestaña seleccionada: %1$s</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
