@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name" translatable="false">Creciente</string>
+    <string name="action_settings">Settings</string>
+    <string name="texto1" translatable="false">Creciente</string>
+    <string name="boton1">Play</string>
+    <string name="boton2">Settings</string>
+    <string name="boton3">About</string>
+    <string name="boton4">Exit</string>
+    <string name="title_activity_segunda">SegundaActivity</string>
+    <string name="texto2">Este programa ha sido desarrollado como ejemplo para demostrar como se lanzan nuevas actividades</string>
+    <string name="pref1">Música</string>
+    <string name="pref1des">Reproducir música</string>
+    <string name="pref2">Tipo de gráficos</string>
+    <string name="pref2des">Gráficos que usará la app</string>
+    <string name="pref3">Número de trozos</string>
+    <string name="pref3des">Cachos</string>
+</resources>

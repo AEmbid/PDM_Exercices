@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="boton1">Jugar</string>
+    <string name="boton2">Configuración</string>
+    <string name="boton3">Información</string>
+    <string name="boton4">Salir</string>
+    <string name="action_settings">Ajustes</string>
+</resources>
