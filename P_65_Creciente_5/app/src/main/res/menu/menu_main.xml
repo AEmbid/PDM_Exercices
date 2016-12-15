@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.pdm.p_05_creciente_01.MainActivity">
+
+    <item
+        android:id="@+id/menupref"
+        android:orderInCategory="100"
+        android:icon="@android:drawable/ic_menu_preferences"
+        app:showAsAction="always"
+        android:checkable="false"
+        android:title="@string/preferences_menu"
+        android:visible="true"
+        android:enabled="true" />
+
+    <item
+        android:id="@+id/menuinfo"
+        android:orderInCategory="50"
+        android:icon="@android:drawable/ic_menu_info_details"
+        app:showAsAction="always"
+        android:checkable="false"
+        android:title="@string/info_menu"
+        android:visible="true"
+        android:enabled="true" />
+</menu>
