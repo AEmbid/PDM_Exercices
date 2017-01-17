@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_leer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.pdm.p_82_ficheros_1.LeerActivity"
+    tools:showIn="@layout/activity_leer">
+
+    <TextView
+        android:text="Texto guardado en fichero"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/tv_titleleer"
+        android:textAlignment="center" />
+
+    <TextView
+        android:text="@string/nofilefound"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/tv_filecontent"
+        android:layout_below="@+id/tv_titleleer"
+        android:layout_centerHorizontal="true"
+        android:textAlignment="center"
+        android:gravity="center_vertical|center_horizontal" />
+</RelativeLayout>
